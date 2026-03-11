@@ -1,0 +1,10 @@
+﻿{
+  "Middle East": {"lat": 29.2985, "lng": 42.551, "continent": "Asia", "aliases": ["gaza", "levant"]},
+  "East Asia": {"lat": 36.5273, "lng": 127.0246, "continent": "Asia", "aliases": ["taiwan", "beijing", "tokyo", "seoul"]},
+  "South Asia": {"lat": 23.5937, "lng": 78.9629, "continent": "Asia", "aliases": ["delhi", "mumbai"]},
+  "Eastern Europe": {"lat": 49.4872, "lng": 31.2718, "continent": "Europe", "aliases": ["kyiv", "moscow"]},
+  "Western Europe": {"lat": 50.1109, "lng": 8.6821, "continent": "Europe", "aliases": ["paris", "berlin", "london"]},
+  "North America": {"lat": 39.8283, "lng": -98.5795, "continent": "NorthAmerica", "aliases": ["washington", "new york"]},
+  "South America": {"lat": -14.235, "lng": -51.9253, "continent": "SouthAmerica", "aliases": ["amazon"]},
+  "Oceania": {"lat": -22.7359, "lng": 140.0188, "continent": "Oceania", "aliases": ["sydney", "melbourne"]}
+}

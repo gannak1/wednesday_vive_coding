@@ -1,0 +1,17 @@
+﻿{
+  "Israel": {"lat": 31.0461, "lng": 34.8516, "continent": "Asia", "region": "Middle East", "aliases": ["israeli"]},
+  "Ukraine": {"lat": 48.3794, "lng": 31.1656, "continent": "Europe", "region": "Eastern Europe", "aliases": ["ukrainian"]},
+  "Russia": {"lat": 61.524, "lng": 105.3188, "continent": "Europe", "region": "Eastern Europe", "aliases": ["russian"]},
+  "China": {"lat": 35.8617, "lng": 104.1954, "continent": "Asia", "region": "East Asia", "aliases": ["chinese"]},
+  "Japan": {"lat": 36.2048, "lng": 138.2529, "continent": "Asia", "region": "East Asia", "aliases": ["japanese"]},
+  "South Korea": {"lat": 35.9078, "lng": 127.7669, "continent": "Asia", "region": "East Asia", "aliases": ["korea", "korean"]},
+  "India": {"lat": 20.5937, "lng": 78.9629, "continent": "Asia", "region": "South Asia", "aliases": ["indian"]},
+  "United States": {"lat": 37.0902, "lng": -95.7129, "continent": "NorthAmerica", "region": "North America", "aliases": ["u.s.", "us", "america", "american"]},
+  "Brazil": {"lat": -14.235, "lng": -51.9253, "continent": "SouthAmerica", "region": "South America", "aliases": ["brazilian"]},
+  "Germany": {"lat": 51.1657, "lng": 10.4515, "continent": "Europe", "region": "Western Europe", "aliases": ["german"]},
+  "France": {"lat": 46.2276, "lng": 2.2137, "continent": "Europe", "region": "Western Europe", "aliases": ["french"]},
+  "United Kingdom": {"lat": 55.3781, "lng": -3.436, "continent": "Europe", "region": "Western Europe", "aliases": ["britain", "british", "uk"]},
+  "Australia": {"lat": -25.2744, "lng": 133.7751, "continent": "Oceania", "region": "Oceania", "aliases": ["australian"]},
+  "Turkey": {"lat": 38.9637, "lng": 35.2433, "continent": "Asia", "region": "Middle East", "aliases": ["turkish"]},
+  "Iran": {"lat": 32.4279, "lng": 53.688, "continent": "Asia", "region": "Middle East", "aliases": ["iranian"]}
+}
