@@ -3,7 +3,7 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 
 from app.core.database import close_database, connect_database, ensure_indexes
@@ -70,6 +70,11 @@ app.mount("/static", StaticFiles(directory="app/static"), name="static")
 app.include_router(pages_router)
 app.include_router(news_api_router)
 app.include_router(saved_api_router)
+
+
+@app.get("/healthz")
+async def healthcheck() -> JSONResponse:
+    return JSONResponse({"status": "ok"})
 
 
 @app.exception_handler(AppError)

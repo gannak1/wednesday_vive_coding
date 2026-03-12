@@ -1,0 +1,29 @@
+﻿services:
+  - type: web
+    name: global-issue-map
+    runtime: python
+    plan: free
+    rootDir: .
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-10000}
+    healthCheckPath: /healthz
+    autoDeploy: true
+    envVars:
+      - key: APP_ENV
+        value: prod
+      - key: MONGODB_URI
+        sync: false
+      - key: MONGODB_DB_NAME
+        value: global_issue_map
+      - key: NEWSAPI_API_KEY
+        sync: false
+      - key: PAPAGO_API_KEY_ID
+        sync: false
+      - key: PAPAGO_API_KEY
+        sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: OPENAI_MODEL
+        value: gpt-4.1-mini
+      - key: SESSION_COOKIE_NAME
+        value: gid_session
